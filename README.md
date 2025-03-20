@@ -23,4 +23,7 @@ def all_digits_odd(n):
 numbers = [num for num in range(1000, 3001) if all_digits_odd(num)]
 print("@".join(map(str, numbers)))
 
-    
+  def slice_with_step(mylist, start, step):
+    return mylist[start::step]
+
+print(slice_with_step([1, 2, 33, 4, 5, 6, 7, 8, 9], 1, 2  
